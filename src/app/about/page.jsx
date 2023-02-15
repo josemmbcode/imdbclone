@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="max-w-6xl space-y-4 mx-auto px-6 md:px-0">
+    <div className="max-w-6xl space-y-4 mx-auto px-4 ">
       <h1 className="text-2x; font-medium text-amber-600">About</h1>
       <p>
         IMDb (an abbreviation of Internet Movie Database) is an online database
