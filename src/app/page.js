@@ -19,7 +19,7 @@ export default async function Home({ searchParams }) {
   const results = data.results;
 
   return (
-    <div>
+    <div className="flex justify-center">
       <Results results={results} />
     </div>
   );
