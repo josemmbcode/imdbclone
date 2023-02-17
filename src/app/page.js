@@ -17,7 +17,8 @@ export default async function Home({ searchParams }) {
   const data = await res.json();
 
   const results = data.results;
-
+  console.log(results[0]);
+  console.log(results[1]);
   return (
     <div className="flex justify-center">
       <Results results={results} />
