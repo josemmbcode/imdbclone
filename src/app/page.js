@@ -20,7 +20,7 @@ export default async function Home({ searchParams }) {
   const results = data.results;
 
   return (
-    <div className="flex justify-center px-2 sm:px-0">
+    <div className="flex justify-center">
       <Results results={results} />
     </div>
   );
